@@ -11,7 +11,6 @@ class BaseAppBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: Colors.black12,
         height: 80,
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: 16),
