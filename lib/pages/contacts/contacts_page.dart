@@ -37,8 +37,7 @@ class ContactsPage extends StatelessWidget {
           width: MediaQuery.of(context).size.width,
           height: 26,
           color: AppColors.lightBackground,
-          child: Row(
-              children: [
+          child: Row(children: [
             Text(
               'A',
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
