@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:pr_flutter_2_phonebook/pages/auth/login_page.dart';
 import 'package:pr_flutter_2_phonebook/pages/contact_info/contact_info_page.dart';
 import 'package:pr_flutter_2_phonebook/pages/contacts/contacts_page.dart';
 
@@ -14,10 +15,12 @@ void main() {
   ));
 
   runApp(MaterialApp(
-    home: ContactsPage(),
+    home: LoginPage(),
     debugShowCheckedModeBanner: false,
     theme: new ThemeData(scaffoldBackgroundColor: Colors.white),
     routes: <String, WidgetBuilder>{
+      '/login': (BuildContext context) => LoginPage(),
+      '/signup': (BuildContext context) => ContactsPage(),
       '/contacts': (BuildContext context) => ContactsPage(),
       '/contact-info': (BuildContext context) => ContactInfoPage(),
     },

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pr_flutter_2_phonebook/res/app_colors.dart';
+import 'package:pr_flutter_2_phonebook/res/colors.dart';
 
 class SearchFieldWidget extends StatelessWidget {
   InputBorder inputBorder = OutlineInputBorder(
